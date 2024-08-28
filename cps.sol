@@ -12,7 +12,7 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 
 // changer tous les Cryptopunkstar et CPS par votre nom de token !
-// ligne 17 et 19
+// ligne 18 et 20
 contract Cryptopunkstar is ERC20, ERC20Burnable, Ownable, ERC20Permit {
     constructor(address initialOwner)
         ERC20("Cryptopunkstar", "CPS")
