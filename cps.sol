@@ -15,9 +15,9 @@ import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Permit.sol";
 // ligne 18 et 20
 contract Cryptopunkstar is ERC20, ERC20Burnable, Ownable, ERC20Permit {
     constructor(address initialOwner)
-        ERC20("Cryptopunkstar", "CPS")
+        ERC20("toximelowpsy", "TMP")
         Ownable(initialOwner)
-        ERC20Permit("Cryptopunkstar")
+        ERC20Permit("toximelowpsy")
     {
         _mint(msg.sender, 21000000000 * 10 ** decimals());
     }
